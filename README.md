@@ -61,6 +61,3 @@ Sign language is a crucial means of communication for many individuals with hear
 - **Tools**: Visual Studio Code
 - **Hardware**: Webcam for capturing images, GPU for training the model
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
