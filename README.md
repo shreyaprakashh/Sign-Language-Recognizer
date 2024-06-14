@@ -6,13 +6,11 @@ This project translate Indian sign language alphabets into text using Long Short
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data Collection](#data-collection)
 - [Model Training](#model-training)
 - [Real-Time Recognition](#real-time-recognition)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -26,24 +24,6 @@ Sign language is a crucial means of communication for many individuals with hear
 - **Model Training**: Train an LSTM-based neural network to recognize sign language alphabets.
 - **Real-Time Recognition**: Recognize and translate sign language gestures in real-time through a user-friendly interface.
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/sign-language-recognition-lstm.git
-    cd sign-language-recognition-lstm
-    ```
-
-2. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-    ```
-
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
@@ -69,7 +49,7 @@ Sign language is a crucial means of communication for many individuals with hear
 
 1. Run the real-time recognition script to start translating sign language gestures:
     ```bash
-    python recognize_gestures.py
+    python app.py
     ```
 
 2. Use the interface to perform sign language gestures in front of your camera and see the translations.
@@ -80,10 +60,6 @@ Sign language is a crucial means of communication for many individuals with hear
 - **Libraries**: TensorFlow, Keras, OpenCV, NumPy, pandas
 - **Tools**: Visual Studio Code
 - **Hardware**: Webcam for capturing images, GPU for training the model
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
 
 ## License
 
