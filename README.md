@@ -31,7 +31,7 @@ Sign language is a crucial means of communication for many individuals with hear
 
 1. Run the data collection script to capture images of sign language alphabets:
     ```bash
-    python collect_data.py
+    python collectdata.py
     ```
 
 2. Follow the on-screen instructions to capture images for each alphabet.
@@ -40,7 +40,7 @@ Sign language is a crucial means of communication for many individuals with hear
 
 1. Preprocess the collected images and train the LSTM model:
     ```bash
-    python train_model.py
+    python trainmodel.py
     ```
 
 2. The trained model will be saved for later use.
