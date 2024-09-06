@@ -11,7 +11,6 @@ This project translate Indian sign language alphabets into text using Long Short
 - [Model Training](#model-training)
 - [Real-Time Recognition](#real-time-recognition)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Introduction
 
